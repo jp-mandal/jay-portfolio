@@ -1,0 +1,135 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  padding: 60px;
+  background: #1e293b;
+}
+
+/* Sections */
+
+section {
+  padding: 40px;
+  margin: 20px;
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+/* Headings */
+
+h1 {
+  color: #38bdf8;
+}
+
+h2 {
+  color: #60a5fa;
+}
+
+/* Grid Cards (Skills, Education, Achievements, Contact) */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+/* Experience and Project Cards */
+
+.project-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+/* Top row inside cards */
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+/* Left side (Designation / Degree) */
+
+.designation {
+  text-align: left;
+}
+
+/* Right side (Year) */
+
+.year {
+  text-align: right;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  margin-top: 20px;
+}
